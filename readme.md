@@ -2,6 +2,6 @@
 <head>
 </head>
   <body>
-    <h1>A terminal based chess game in C language</h1>
+    <h3>A terminal based chess game in C language</h3>
   </body>
 </html>
