@@ -35,16 +35,26 @@ void print_board(int row_no,int col_no)
 
 void main()
 {
-    int row,col;
-    for(row=1; row<10; row++) {
-        for(col=1; col<10; col++) {
+    int row,col,row_input,col_input;
+    for(row=1; row<9; row++) {
+        for(col=1; col<9; col++) {
             print_board(row,col);
 // all important piecss printed above
             if(row ==2 || row==7) {
                 printf("♙");
                 printf(".");
+
             }
+
         }
         printf("\n");
     }
+    printf("{Player-1}Enter the position of piece to move\n");
+    printf("{Player-1}Enter the row_no:");
+    scanf("%d",&row_input);
+    printf("{Player-1}Enter the col_no:");
+    scanf("%d",&col_input);
+
+
 }
+
