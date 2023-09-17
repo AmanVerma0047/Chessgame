@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-char move_piece(int get_row,int get_col){
-continue;
-}
 
 void print_board(int row_no,int col_no)
 {
